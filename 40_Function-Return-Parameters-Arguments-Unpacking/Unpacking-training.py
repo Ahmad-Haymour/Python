@@ -1,6 +1,9 @@
 #------------------------------------------------------#
 # -- Function Packing, Unpacking Arguments Training -- #
 #------------------------------------------------------#
+#   *Tuple
+#   **Dictionary
+#------------------------------------------------------#
 
 myTuple = ("HTML", "CSS", "JS")
 mySkills = {
@@ -22,5 +25,6 @@ def show_skills(user, *skills, **skillsAndProgress) :
 
 
 show_skills('Ahmad', "HTML", "CSS", "JS", Python='60%', JAVA = "20%")
+
 
 show_skills("Lara", *myTuple, **mySkills)

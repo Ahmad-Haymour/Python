@@ -10,7 +10,6 @@
 
 # print(x[1:])
 
-
 def clean_word(word) :
 
     if len(word) == 1 :
