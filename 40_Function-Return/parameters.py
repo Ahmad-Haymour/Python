@@ -34,3 +34,15 @@ def full_name(first, middle, last) :
     print("Hello {} {} {}".format(first.strip().capitalize(), middle.upper(), last.capitalize()))
 
 full_name('Ahmad', "A", "Haymour")
+
+print('><'*50)
+
+## Default Parameters
+
+def greetings(name, age = "Unknown", country = "Unknown") :
+
+    print("Hello {}, your Age is => {}, and your Country is => {}".format(name, age, country))
+
+greetings("Ahmad", 28, "Syria")
+greetings("Ahmad", 28)
+greetings("Ahmad")
