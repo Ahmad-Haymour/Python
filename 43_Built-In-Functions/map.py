@@ -1,5 +1,6 @@
 #-----------------------------------#
 #  -- Built In Functions Part 4 --  #
+#           MAP
 #-----------------------------------#
 #   [1] Map take a Function & Iterator
 #   [2] Map called Map because it Map the Function on every Element
@@ -7,7 +8,7 @@
 
 ##  Use Map with Predefined Function
 
-#   Map( Function, List )
+#   Map( Function, List [ Iteration] )
 
 def formatText(text):
 
