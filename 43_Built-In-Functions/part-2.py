@@ -43,5 +43,5 @@ print("Hello there, How are you?")
 print("Hello", "Ahmad,", "how", "you", "doing")
 # print("Hello", "Ahmad,", "how", "you", "doing", sep=" | ")    # Error didn't work
 
-print("First Line", end=" => ")
+# print("First Line", end=" => ")       # Error didn't work
 print("Second Line")
