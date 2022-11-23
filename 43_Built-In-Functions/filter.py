@@ -7,12 +7,13 @@
 #   [3] The Function need to Return (Boolean) Value
 #   [4] The Function can be Pre-Defined Function or Lambda Function
 #   [5] Filter out all Elements for which the Function Return True
+#------------------------------------------------------------------
 
 ## Example      => You have to Return True to see the Value from Filter,  Filter Don't read the False Values
 
 def check_number(num):
 
-    if num == 0 :
+    if num > 10 :
         return True
 
 my_numbers = [0, 0, 1, 20, 22, 67, 56, 0]

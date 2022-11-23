@@ -1,10 +1,11 @@
 #-----------------------------------#
 #  -- Built In Functions Part 4 --  #
-#           MAP
+#               Map
 #-----------------------------------#
 #   [1] Map take a Function & Iterator
 #   [2] Map called Map because it Map the Function on every Element
 #   [3] The Function can be Pre-Defined function or Lambda Function
+#-------------------------------------------------------------------
 
 ##  Use Map with Predefined Function
 
