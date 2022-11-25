@@ -1,10 +1,10 @@
 #-----------------------------------#
 #  -- Built In Functions Part 6 --  #
 #-----------------------------------#
-#   - enumerate(  )
+#   - enumerate(  )         => Make a List with Counter from Variables
 #-----------------------------------#
 
-## enumerate()
+## enumerate( Iterable, start=0)
 
 mySkills = ["HTML", "CSS", "JS", "Python"]
 
