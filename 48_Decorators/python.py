@@ -25,7 +25,7 @@ def myDecorator(func) :
 def say_hello():
     print("Hello Someone")
 
-@myDecorator
+
 def say_howAreYou():
     print("How are you Someone?")
 
