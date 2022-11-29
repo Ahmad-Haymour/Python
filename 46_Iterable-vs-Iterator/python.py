@@ -6,7 +6,7 @@
 # [2] Examples (String, List, Set, Tuple, Dictionary)
 #-------------------------------------#
 # Iterator
-# [1] Object used to Iterate Over Iterable Using Using next() Method Return 1 Element at a Time
+# [1] Object used to Iterate Over Iterable Using next() Method Return 1 Element at a Time
 # [2] You can Generate Iterator from Iterable when Using iter() Method
 # [3] For Loop Already calls iter() Method on the Iterable Behind the Scene
 # [4] Gives "StopIteration" IF there is No Next Element
