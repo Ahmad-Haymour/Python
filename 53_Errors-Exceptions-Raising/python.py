@@ -28,6 +28,6 @@ y = 'Ahmad'
 
 if type(y) != int :
 
-    raise ValueError('Only Numbers Allowed')
+    raise ValueError('Only Numbers Allowed')        #   Raise like => throw in JavaScript
 
 print('Print Message after If Condition')
