@@ -15,7 +15,7 @@ while the_tries > 0:
 
         print('You have {} tries left'.format(the_tries))
 
-        print('Path Example => \'/bla/bla\'')  
+        print('Path Example => /home/user/Desktop/Python/53_Errors-Exceptions-Raising/test.txt')
 
         file_name_and_path = input('File Name => ').strip()
 
