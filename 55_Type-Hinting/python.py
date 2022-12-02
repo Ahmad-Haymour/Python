@@ -8,6 +8,7 @@ def say_hello(name) -> str:
     print(f'Hello {name}')
     return name
 
+
 say_hello('Ahmad')
 
 def calc(n1, n2) -> int:
