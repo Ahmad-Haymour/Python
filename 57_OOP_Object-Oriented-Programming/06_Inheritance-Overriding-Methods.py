@@ -1,7 +1,7 @@
 # ----------------------------------------------------------
 # -- Object Oriented Programming => Multiple Inheritance --
 # ----------------------------------------------------------
-
+#   Class.mro()     =>
 class BaseOne:
 
     def __init__(self):
@@ -27,6 +27,7 @@ class Derived(BaseOne, BaseTwo):
 
 
 my_var = Derived()
+print(Derived.mro())
 print('><'*50)
 print(my_var.func_one)
 print(my_var.func_two)
