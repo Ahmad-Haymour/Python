@@ -32,6 +32,9 @@ class Apple(Food):    # Derived Class
 
         print(f'Get from tree from Derived Class => {self.price + 20}')
 
+    # def eat(self):
+    #
+    #     print('This Method will Override the eat() Method from the Base Class Food')
 
 # food_one = Food('Orange', 20)
 
