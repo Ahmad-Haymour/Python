@@ -1,15 +1,16 @@
 # ---------------------------------------------------
 # -- Object Oriented Programming => Encapsulation --
+#   classVariable._ClassName__AttributeName
 # ----------------------------------------------------
 # Encapsulation
 # - Restrict Access to the Data Stored in Attributes and Methods
 # ----------------------------------------------------
-# Public
+# Public    ->  Access & Modified
 # - Every Attributes and Method that we used so far is Public
 # - Attributes and Methods can be Modified and Run frm Everywhere
 # - Inside our/Outside the Class
 # ----------------------------------------------------
-# Protected
+# Protected    ->  Access & Modified
 # - Attributes and Methods can be accessed from within the Class and Sub Classes(Derived)
 # - Attributes and Methods Prefixed with one Underscore _name
 # ----------------------------------------------------
@@ -55,6 +56,6 @@ class Member:
         print(f'Hello {self.__name}')
 
 one = Member('Ahmad')
-# print(one.__name)     => Error - AttributeError -  => You cant access it normally
+# print(one.__name)     => Error - AttributeError -  => You cant access it normally, it cannot be Modified without Getter and Setter Methods
 one.say_hello()
-print(one._Member__name)        #   => How to access Private Attribute
+print(one._Member__name)        #   => This is How to access Private Attribute
