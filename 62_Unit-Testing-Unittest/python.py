@@ -2,7 +2,7 @@
 # -- Advanced_Lessons => Unit Testing With Unittest --
 # ----------------------------------------------------
 # Test Runner
-# - The Module that run the Unit Twsting (unittest, pytest)
+# - The Module that run the Unit Testing (unittest, pytest)
 # -----------------------------------------------------------
 # Test Case
 # - Smallest Unit of Testing
@@ -40,14 +40,13 @@ if __name__ == "__main__":
 
 class MyTestCase(unittest.TestCase):
     def test_one(self):
-
         self.assertTrue(100 > 22, "Should be True")
 
     def test_two(self):
         self.assertEqual(40 + 60, 100, "Should be Equal")
 
     def test_three(self):
-        self.assertGreter(100, 111, "Should be Greater")
+        self.assertGreater(100, 99, "Should be Greater")
 
 
 if __name__ == "__main__":
